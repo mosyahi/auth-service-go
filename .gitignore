@@ -1,0 +1,31 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output file dari build
+auth-service-go
+
+# Go dependencies
+vendor/
+go.sum
+
+# Environment variables
+.env
+*.env
+.env.local
+
+# IDE (VS Code, JetBrains)
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
