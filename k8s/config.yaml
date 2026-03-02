@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: auth-config
+data:
+  REDIS_ADDR: "redis-service:6379"
+  # DB_URL: "host=postgres-service user=postgres dbname=auth_db port=5432 sslmode=disable"
+  DB_URL: "host=postgres user=postgres password=postgres dbname=auth_service port=5432 sslmode=disable"
+  APP_PORT: "8080"
